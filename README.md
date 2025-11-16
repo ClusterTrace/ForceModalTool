@@ -1,9 +1,9 @@
 # ForceModalTool
-An addon for blender that adds a modal tool that creates a forcefield where the user clicks and drags
+An addon for blender that adds a modal tool that creates a forcefield where the user clicks and drags. The forcefield disappears once the left mouse is released or the user right clicks.
 
 The tool works by using a raycast to find the selected object and where the ray collides on the object. Depending on whether using the closest vertex is set, the hit point or the closest vertex of the object is used as the location to place the forcefield.
 
-Force fields are one of the only ways to adjust a clothing sim during simulation in blender (I tried other methods with very limited success).
+Force fields are one of the only ways to adjust a clothing sim during simulation in blender (I tried other methods with very limited success). Being able to pull at or push vertices during a cloth sim allows for things like dragging part of a shirt on a character down to help settle the clothing in a more reasonable place than where the sewing or gravitational forces would leave the shirt.
 
 Install by installing the ForceModalTool.py as the addon file in Blender
 1. Edit -> preferences -> Add-ons
